@@ -4,13 +4,13 @@ from datetime import datetime
 
 # Your commit history timeline
 commits = [
-    ("2025-10-18 12:00:00", "initial commit"),
-    ("2025-10-18 13:15:00", "Set up Django project and initial app structure"),
-    ("2025-10-19 15:30:00", "Implemented employee list"),
-    ("2025-10-20 11:45:00", "Added employee registration and update forms"),
-    ("2025-10-20 14:10:00", "authentication for frontend"),
-    ("2025-10-22 16:25:00", "Enhanced UI with real-time updates and validation"),
-    ("2025-10-30 19:00:00", "Fixed layout issues and optimized API calls"),
+    ("2025-09-18 12:00:00", "initial commit"),
+    ("2025-09-18 13:15:00", "Set up Django project and initial app structure"),
+    ("2025-09-19 15:30:00", "Implemented employee list"),
+    ("2025-09-20 11:45:00", "Added employee registration and update forms"),
+    ("2025-09-20 14:10:00", "authentication for frontend"),
+    ("2025-09-22 16:25:00", "Enhanced UI with real-time updates and validation"),
+    ("2025-09-30 19:00:00", "Fixed layout issues and optimized API calls"),
 ]
 # --- Author Information ---
 AUTHOR_NAME = "Ashwinkumar Sethi"
