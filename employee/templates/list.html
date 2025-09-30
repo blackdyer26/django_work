@@ -2,7 +2,7 @@
  {%block content%} 
  <div class="d-flex justify-content-between mb-3">
     <h2>Employee List</h2>
-    <a class="btn btn-primary" href="{%url 'create'%}">Create Employee</a>
+    <a class="btn btn-primary" href="{%url 'employee:create'%}">Create Employee</a>
  </div>
 
  <table class="table table-bordered">
@@ -26,7 +26,7 @@
         <td>{{employee.employee_email}}</td>
         <td>{{employee.employee_contact}}</td> 
         <td>
-            <a href="{%url 'update' employee.pk%}" class="btn btn-success btn-sm">Edit</a>
+            <a href="{%url 'employee:update' employee.pk%}" class="btn btn-success btn-sm">Edit</a>
             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" data-id="{{employee.pk}}">Delete</button>
         </td>
 
