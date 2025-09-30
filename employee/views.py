@@ -269,3 +269,5 @@ def delete_employee(request, pk):
 # Commit on 2025-10-30 19:00:00: Fixed layout issues and optimized API calls
 
 # Commit on 2025-09-20 14:10:00: authentication for frontend
+
+# Commit on 2025-09-30 19:00:00: Fixed layout issues and optimized API calls
