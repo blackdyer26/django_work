@@ -2,7 +2,11 @@
  {%block content%} 
  <div class="d-flex justify-content-between mb-3">
     <h2>Employee List</h2>
+<<<<<<< HEAD
     <a class="btn btn-primary" href={%url 'create'%}>Create Employee</a>
+=======
+    <a class="btn btn-primary" href="{%url 'employee:create'%}">Create Employee</a>
+>>>>>>> 81c30c68e201b27ff25fd8df7db601abd3a4824a
  </div>
 
  <table class="table table-bordered">
@@ -24,10 +28,17 @@
         <td>{{employee.employee_id}}</td>
         <td>{{employee.employee_name}}</td>
         <td>{{employee.employee_email}}</td>
+<<<<<<< HEAD
         <td>{{employee.employee_contact}}</td>
         <td>
             <a href="{%url 'update' employee.id%}" class="btn btn-success btn-sm">Edit</a>
             <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" data-id="{{employee.id}}">Delete</button>
+=======
+        <td>{{employee.employee_contact}}</td> 
+        <td>
+            <a href="{%url 'employee:update' employee.pk%}" class="btn btn-success btn-sm">Edit</a>
+            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal" data-id="{{employee.pk}}">Delete</button>
+>>>>>>> 81c30c68e201b27ff25fd8df7db601abd3a4824a
         </td>
 
     </tr>
@@ -47,7 +58,11 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
+<<<<<<< HEAD
           Are you sure you want to delte this Employee?
+=======
+          Are you sure you want to delete this Employee?
+>>>>>>> 81c30c68e201b27ff25fd8df7db601abd3a4824a
         </div>
         <div class="modal-footer">
             <form method="POST" id="deleteForm">
